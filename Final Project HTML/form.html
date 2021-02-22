@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet"  href="healthcare.css">
+    </head>
+    <body>
+    
+        <div class="header">
+            <h1>Frontliners: A Singapore Experience</h1>
+            <p>An online portal set up as a tribute to all our brave women and men keeping the nation safe amidst the current Covid-19 pandemic.</p>
+        </div>
+
+        <div class="topnav">
+            <a href="index.html">Home</a>
+            <a href="healthcare.html">Healthcare</a>
+            <a href="transport.html">Transport</a>
+            <a href="education.html">Education</a>
+            <a href="aboutus.html">About us</a>
+        </div>
+
+        <div class="content">
+            <h2>Sumbission Form</h2>
+           
+            <p> Our everyday heroes toil silently and hard. Do give a hand in our efforts to bring their experiences to light! </p> 
+            
+            <form action="/action_page.php">
+                <fieldset>
+                    <legend>Name of Nominator:</legend>
+                    <label for="fname">Name:</label><br>
+                    <input type="text" id="name" name="name" value=""><br>
+                    <label for="lname">Email:</label><br>
+                    <input type="text" id="email" name="email" value=""><br>
+                  </fieldset>
+            </form>
+               
+            <br>
+
+            <form action="/action_page.php">
+                <fieldset>
+                    <legend>Name of Nominee:</legend>
+                    <label for="fname">Name:</label><br>
+                    <input type="text" id="name" name="name" value=""><br>
+                    <label for="lname">Email:</label><br>
+                    <input type="text" id="email" name="email" value=""><br>
+                    <label for= Category>Category:</label>
+                    <input list="browsers" name="browser">
+                    <datalist id="browsers">
+                    <option value="Home">
+                    <option value="Healthcare">
+                    <option value="Transport">
+                    <option value="Education">
+                    <option value="Funeral Service">
+                    </datalist>
+                    
+                </fieldset>
+            </form>
+            <br>
+            <form action="/action_page.php">
+                <label for="w3review">Description of Nominee (Maximum: 200 words):</label><br>
+                <textarea id="w3review" name="w3review" rows="4" cols="50">
+                  </textarea>
+                  <br><br>
+                </form>
+               
+                <form action="/action_page.php">
+                    <input type="checkbox" id="terms" name="terms" value="terms">
+                    <label for="terms"> I confirm that the information that I have sumbitted is authentic and bona fide.</label><br>
+                  </form>
+
+            <button type="submit" onclick="alert('Thanks for your submission! We will be in touch with you shortly')"> Submit</button>
+
+            <br>
+
+            <p>Copyright: Elysium Production</p>
+           
+           
+    </body>
+</html>
